@@ -2,15 +2,22 @@
 0 Case for the Raspberry Pi model B. All ports are accessible except the camera/expansion slot. Some part/color/design choices dictated by available pieces.
 0 Name: case.ldr
 0 Author: Jim DeVona
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 3.52667
+0 !LPUB MULTI_STEP BEGIN
+0 !LPUB MULTI_STEP PLI PLACEMENT GLOBAL TOP LEFT ASSEM OUTSIDE
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 3028.dat
 1 4 80 0 0 -0 0 1 -0 1 0 -1 -0 -0 2445.dat
 1 4 -80 0 20 -0 0 1 -0 1 0 -1 -0 -0 3832.dat
 0 ROTSTEP 0.000 -90.000 0.000 REL
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 2.10667
 1 72 -60 -8 0 -0 0 1 -0 1 0 -1 -0 -0 3029.dat
 1 72 60 -8 0 -0 0 1 -0 1 0 -1 -0 -0 3029.dat
 1 4 0 -8 -110 -1 0 -0 0 1 0 0 0 -1 3023.dat
 1 4 0 -8 110 0 -0 -1 -0 1 -0 1 0 0 3021.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
+0 !LPUB MULTI_STEP PLI PLACEMENT GLOBAL LEFT TOP ASSEM OUTSIDE
 1 4 90 -32 60 0 0 1 0 1 -0 -1 0 0 30414.dat
 1 4 90 -32 -60 -0 -0 1 -0 1 0 -1 0 -0 3937.dat
 1 4 80 -22 -60 0 1 -0 0 -0 -1 -1 -0 -0 3938.dat
@@ -34,6 +41,8 @@
 1 4 30 -16 40 0 0 1 0 1 -0 -1 0 0 2431.dat
 1 4 0 -16 -110 -1 0 0 0 1 -0 -0 -0 -1 2431.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
 1 4 70 -32 110 -1 0 0 0 1 -0 0 -0 -1 3622.dat
 1 4 0 -80 110 -1 0 -0 0 1 -0 0 -0 -1 2352.dat
 1 4 -90 -32 110 0 -0 -1 0 1 -0 1 -0 0 3040b.dat
@@ -48,6 +57,8 @@
 0 // At this point, it may be easiest to begin build the door submodel attached to this hinge
 1 4 100 -16 -120 1 0 -0 0 1 -0 0 0 1 2429.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
 1 4 90 -24 -100 -0 -0 -1 -0 1 -0 1 0 -0 3023.dat
 1 71 -90 -24 -100 -0 -0 -1 -0 1 -0 1 0 -0 32028.dat
 1 4 -90 -32 -100 -0 -0 -1 -0 1 -0 1 0 -0 3023.dat
@@ -65,11 +76,15 @@
 1 4 -90 -56 -90 -1 -0 -0 -0 1 -0 0 -0 -1 3005.dat
 1 71 -90 -56 -110 -1 -0 -0 -0 1 -0 0 -0 -1 6541.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 2.66667
 1 4 90 -64 30 -1 -0 -0 -0 1 -0 0 -0 -1 3024.dat
 1 4 90 -72 30 -1 -0 -0 -0 1 -0 0 -0 -1 3024.dat
 1 4 90 -80 80 0 -0 -1 -0 1 -0 1 0 0 3010.dat
 1 4 60 -80 110 1 0 -0 0 1 0 0 -0 1 3004.dat
 0 STEP
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 2.66
 1 4 -70 -80 110 1 0 -0 0 1 0 0 -0 1 3622.dat
 1 4 -90 -80 80 0 -0 1 0 1 0 -1 -0 0 3004.dat
 1 4 -90 -80 -20 -0 0 1 -0 1 -0 -1 -0 -0 3008.dat
@@ -80,26 +95,47 @@
 1 4 0 -80 60 1 0 -0 0 1 -0 0 0 1 3007.dat
 1 4 90 -80 -40 0 0 1 0 1 -0 -1 0 0 3460.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
+0 !LPUB MULTI_STEP PLI PLACEMENT LOCAL TOP LEFT ASSEM OUTSIDE
 1 4 0 -88 60 -1 0 -0 0 1 0 0 0 -1 3033.dat
 1 4 0 -88 -60 -1 0 -0 0 1 0 0 0 -1 3033.dat
 0 STEP
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 2.22
+0 !LPUB MULTI_STEP PLI PLACEMENT LOCAL TOP LEFT ASSEM OUTSIDE
 1 4 0 -96 -20 0 0 -1 -0 1 0 1 0 0 3033.dat
 1 4 0 -96 100 1 0 -0 0 1 0 0 -0 1 3795.dat
 1 4 -80 -96 0 0 -0 1 0 1 0 -1 -0 0 2445.dat
 0 STEP
+0 !LPUB MULTI_STEP END
+0 !LPUB MULTI_STEP BEGIN
+0 !LPUB MULTI_STEP PLI PLACEMENT LOCAL TOP LEFT ASSEM OUTSIDE
 1 4 80 -96 20 -0 0 1 -0 1 -0 -1 -0 -0 3832.dat
 1 4 80 -96 -90 -1 0 -0 0 1 0 0 0 -1 3023.dat
 1 4 100 -96 -120 1 0 0 -0 1 0 -0 -0 1 2429.dat
 0 STEP
+0 !LPUB MULTI_STEP PLI PLACEMENT LOCAL TOP LEFT ASSEM OUTSIDE
 0 // The case is designed to allow the Raspberry Pi circuit board to be easily slid in and out when the door is open.
+0 !LPUB PLI BEGIN SUB raspberrypi.ldr 2
+0 !LPUB PART BEGIN IGN
 1 2 -73 -24.75 -112 1 0 0 0 1 0 -0 0 1 raspberrypi.ldr
+0 !LPUB PLI END
+0 !LPUB PART END
 0 STEP
+0 !LPUB ASSEM PLACEMENT LOCAL CENTER PAGE INSIDE -0.113305 0.195389
+0 !LPUB MULTI_STEP END
+0 !LPUB PLI CONSTRAIN LOCAL HEIGHT 4.96
 0 // When shut, the door holds the Raspberry Pi circuit board securely in place.
+0 !LPUB CALLOUT PLI PER_STEP FALSE
+0 !LPUB CALLOUT BEGIN
 1 4 100 -16 -120 -0.999999 0 0 0 1 0 -0 0 -0.999999 door.ldr
+0 !LPUB CALLOUT POINTER LEFT 0.882 0.197 0.793 0
+0 !LPUB CALLOUT PLACEMENT RIGHT PAGE INSIDE -0.0338438 0
+0 !LPUB CALLOUT END
 0 // This plate is used as a "lock" to secure the door shut.
 1 4 -80 0 -120 -0 -0 -0.999999 -0 1 -0 0.999999 0 -0 3709b.dat
 0 STEP
-0 NOFILE
+0 NOFILE 
 0 FILE door.ldr
 0 Case door. Easiest to assemble with connected hinge pieces while building case body.
 0 Name: door.ldr
@@ -128,7 +164,7 @@
 1 4 0 -80 0 1 0 0 0 1 0 -0 0 1 2430.dat
 1 4 120 -80 10 1 0 0 0 1 0 -0 0 1 3460.dat
 0 STEP
-0 NOFILE
+0 NOFILE 
 0 FILE raspberrypi.ldr
 0 LDraw representation of the Raspberry Pi model B circuit board. Placeholder for a more detailed model.
 0 Name: raspberrypi.ldr
@@ -159,4 +195,4 @@
 4 16 138.75 0 212.5 0 0 212.5 0 -2.5 212.5 138.75 -2.5 212.5
 4 16 0 0 0 0 0 212.5 0 -2.5 212.5 0 -2.5 0
 0 STEP
-0 NOFILE
+0 NOFILE 
