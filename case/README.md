@@ -7,3 +7,4 @@ Raspberry Pi LEGO case
 
 - `case.ldr`: [LDraw](http://www.ldraw.org/) model
 - `case.pdf`: Step-by-step assembly instructions
+- `partlist.txt`: List of parts used to build case

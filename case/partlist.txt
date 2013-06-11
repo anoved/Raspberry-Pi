@@ -1,0 +1,43 @@
+Quantity	Part	Description	Color
+1	2352.dat	Windscreen  2 x  4 x  3	Red
+2	2412b.dat	Tile  1 x  2 Grille with Groove	Red
+5	2412b.dat	Tile  1 x  2 Grille with Groove	Dark Bluish Gray
+2	2429.dat	Hinge Plate  1 x  4 Base	Red
+2	2430.dat	Hinge Plate  1 x  4 Top	Red
+4	2431.dat	Tile  1 x  4 with Groove	Red
+2	2445.dat	Plate  2 x 12	Red
+3	3004.dat	Brick  1 x  2	Red
+3	3005.dat	Brick  1 x  1	Red
+1	3007.dat	Brick  2 x  8	Red
+1	3008.dat	Brick  1 x  8	Red
+1	3010.dat	Brick  1 x  4	Red
+1	3021.dat	Plate  2 x  3	Red
+5	3023.dat	Plate  1 x  2	Red
+4	3024.dat	Plate  1 x  1	Red
+1	3028.dat	Plate  6 x 12	Black
+2	3029.dat	Plate  4 x 12	Dark Bluish Gray
+3	3033.dat	Plate  6 x 10	Red
+2	3040b.dat	Slope Brick 45  2 x  1	Red
+3	3069b.dat	Tile  1 x  2 with Groove	Red
+1	3070b.dat	Tile  1 x  1 with Groove	Red
+1	3188.dat	Door  1 x  3 x  2 Right	Red
+3	3460.dat	Plate  1 x  8	Red
+3	3622.dat	Brick  1 x  3	Red
+4	3623.dat	Plate  1 x  3	Red
+4	3660.dat	Slope Brick 45  2 x  2 Inverted	Red
+5	3665.dat	Slope Brick 45  2 x  1 Inverted	Red
+2	3702.dat	Technic Brick  1 x  8 with Holes	Red
+1	3709b.dat	Technic Plate  2 x  4 with Holes	Red
+1	3795.dat	Plate  2 x  6	Red
+2	3832.dat	Plate  2 x 10	Red
+1	3937.dat	Hinge  1 x  2 Base	Red
+1	3938.dat	Hinge  1 x  2 Top	Red
+1	4162.dat	Tile  1 x  8	Red
+1	4477.dat	Plate  1 x 10	Red
+2	4477.dat	Plate  1 x 10	White
+1	4864b.dat	Panel  1 x  2 x  2 with Hollow Studs	Trans Black
+1	6541.dat	Technic Brick  1 x  1 with Hole	Light Bluish Gray
+1	6636.dat	Tile  1 x  6	Red
+2	30414.dat	Brick  1 x  4 with Studs on Side	Red
+1	32028.dat	Plate  1 x  2 with Door Rail	Light Bluish Gray
+3	87087.dat	Brick  1 x  1 with Stud on 1 Side	Red
